@@ -24,7 +24,7 @@ export class UsersService {
 
       console.log(`Erro ao criar usuario : ${error.message}`);
 
-      throw new InternalServerErrorException('Failed to create user');
+      throw new InternalServerErrorException('Falha ao criar usuario');
     }
   }
 }
